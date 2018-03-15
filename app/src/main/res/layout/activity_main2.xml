@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:src="@drawable/image17"
+       android:scaleType="centerCrop"/>
+
+ <ImageView
+     android:layout_width="30dp"
+     android:layout_height="30dp"
+     android:src="@drawable/eye"
+     android:onClick="eye_hint1"
+     android:layout_marginTop="220dp"
+     android:layout_marginLeft="350dp"/>
+ <ImageView
+     android:layout_width="30dp"
+     android:layout_height="30dp"
+     android:src="@drawable/eye"
+     android:onClick="eye_hint2"
+     android:layout_marginTop="290dp"
+     android:layout_marginLeft="350dp"/>
+
+
+
+ <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/rounded"
+       android:hint=" Name"
+        android:textStyle="italic"
+        android:layout_marginTop="80dp"
+        android:textColor="#c7c7cf"
+        android:textSize="22dp"
+        android:id="@+id/name"
+     android:layout_marginLeft="16dp"
+     android:layout_marginRight="16dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/rounded"
+        android:hint=" Email_id"
+        android:textStyle="italic"
+        android:layout_marginTop="40dp"
+        android:textColor="#c6c6ce"
+        android:textSize="22dp"
+        android:id="@+id/email_id"
+        android:layout_below="@id/name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/rounded"
+        android:hint=" Password"
+        android:textStyle="italic"
+        android:layout_marginTop="40dp"
+        android:textColor="#78c6c6ce"
+        android:textSize="22dp"
+        android:id="@+id/password"
+        android:layout_below="@id/email_id"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/rounded"
+        android:hint="  Confirm Password"
+        android:textStyle="italic"
+        android:layout_marginTop="40dp"
+        android:textColor="#c6c6ce"
+        android:textSize="22dp"
+        android:id="@+id/confirm"
+        android:layout_below="@id/password"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/confirm"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"
+        android:text="Register"
+        android:onClick="register"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="#f4f6ff"
+        android:background="@drawable/rounded2"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
